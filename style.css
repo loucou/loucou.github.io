@@ -1,0 +1,32 @@
+body {
+	padding: 2rem;
+	/* font-family: "Lato", sans-serif; */
+	font-family: "IBM Plex Serif", serif;
+}
+
+#intro {
+	margin-bottom: 2rem;
+}
+
+.projectCard {
+	margin-bottom: 2rem;
+}
+
+.projectCard div {
+	margin-top: 0.4rem;
+}
+
+.projectCard h1 {
+	margin-bottom: 0;
+	font-size: 1em;
+}
+
+.projectCard h1 a {
+	color: #aaa;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+.projectCard h1 a:hover {
+	color: #444;
+}
