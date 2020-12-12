@@ -19,14 +19,19 @@ body {
 .projectCard h1 {
 	margin-bottom: 0;
 	font-size: 1em;
+	display: inline;
 }
 
-.projectCard h1 a {
+.projectCard a {
 	color: #aaa;
 	font-weight: 400;
 	text-decoration: none;
 }
 
-.projectCard h1 a:hover {
+.projectCard a:hover {
 	color: #444;
+}
+
+.projectTech {
+	display: none;
 }
