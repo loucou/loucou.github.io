@@ -1,7 +1,23 @@
 body {
 	padding: 2rem;
-	/* font-family: "Lato", sans-serif; */
 	font-family: "IBM Plex Serif", serif;
+	/* font-size: 16px; */
+}
+
+.onlyphone {
+	display: none;
+}
+.onlypc {
+	display: initial;
+}
+
+@media screen and (max-width: 600px) {
+	.onlyphone {
+		display: initial;
+	}
+	.onlypc {
+		display: none;
+	}
 }
 
 #intro {
@@ -19,12 +35,12 @@ body {
 .projectCard h1 {
 	margin-bottom: 0;
 	font-size: 1em;
+	font-weight: 700;
 	display: inline;
 }
 
 .projectCard a {
 	color: #aaa;
-	font-weight: 400;
 	text-decoration: none;
 }
 
@@ -34,4 +50,8 @@ body {
 
 .projectTech {
 	display: none;
+}
+
+.projectTech img {
+	width: 24px;
 }
