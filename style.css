@@ -1,80 +1,59 @@
-body {
-	padding: 0 2rem;
-	padding-bottom: 0;
-	font-family: "IBM Plex Serif", serif;
+.flip-card {
+	/* background-color: transparent; */
+	width: 300px;
+	height: 350px;
+	perspective: 1000px;
+}
+
+.flip-card-inner {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	transition: transform 0.6s;
+	transform-style: preserve-3d;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+	transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.flip-card-front {
+	border-radius: 4px;
+	background-color: #bbb;
+	color: white;
+	width: 100%;
+	height: 100%;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
-	min-height: 99vh;
-	color: #222;
-	stroke: #222;
-	background-color: #fafafc;
-}
-
-.onlyphone {
-	display: none;
-}
-.onlypc {
-	display: initial;
-}
-
-@media screen and (max-width: 600px) {
-	.onlyphone {
-		display: initial;
-	}
-	.onlypc {
-		display: none;
-	}
-}
-
-a {
-	color: #aaa;
-	text-decoration: none;
-}
-
-a:hover {
-	color: rgb(37, 26, 58);
-}
-
-header {
-	margin-top: 2rem;
-	margin-bottom: 2rem;
-}
-
-#lang {
-	float: right;
-	text-decoration: none;
-	color: #aaa;
-}
-
-#lang:hover {
-	color: #444;
-}
-
-#intro {
-	margin-bottom: 2rem;
-}
-
-.projectCard {
-	margin-bottom: 2rem;
-}
-
-.projectCard h1 {
-	margin-bottom: 0;
-	font-size: 1em;
-	font-weight: 700;
-	display: inline;
-}
-
-.projectTech {
-	display: none;
-}
-
-.projectTech img {
-	width: 24px;
-}
-
-footer {
-	/* width: 100%; */
+	justify-content: center;
+	align-items: center;
 	text-align: center;
+	/* font-size: 2em; */
+}
+
+.flip-card-back {
+	border-radius: 4px;
+	background-color: #2980b9;
+	color: white;
+	transform: rotateY(180deg);
+	padding: 1em;
+}
+
+.flip-card-back a {
+	color: white;
+	text-decoration: none;
+}
+
+.flip-card-back a:hover {
+	text-decoration: underline;
 }

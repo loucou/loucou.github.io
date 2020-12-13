@@ -1,89 +1,169 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;700&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Louis Coulet</title>
-
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- https://css-tricks.com/the-checkbox-hack/ -->
 </head>
 <body>
-    <header>
-        <a id="lang" href="fr/index.html">EN</a>
-        <svg width="80" height="40.721" version="1.1" viewBox="0 0 21.167 10.774" xmlns="http://www.w3.org/2000/svg">
-            <g transform="translate(-9.504 -43.996)" fill="none" stroke-linejoin="round" stroke-width=".53081">
-              <path d="m9.8293 44.253v10.242h9.2479z" style="paint-order:normal"/>
-              <path d="m30.602 44.253h-9.2479v10.242z" style="paint-order:normal"/>
-              <path d="m30.602 54.496h-9.2479v-10.242z" style="paint-order:normal"/>
-            </g>
-          </svg>
-          
-        <div>
-            Louis Coulet <a href="https://www.linkedin.com/in/coulet/">linkedin</a> <a href="https://www.malt.fr/profile/louiscoulet">malt</a><br>
-            Full-stack web developer<br>
-            contact@louiscoulet.com 
-        </div>
+    <header class="container">
+        <section class="hero">
+            <div class="hero-body">
+                <div class="container is-max-desktop">
+                    <h1 class="title">Louis Coulet</h1>
+                    <h2 class="subtitle">Full-stack web developer</h2>
+                    <p>
+                        As a freelance developer, I strive for the success of my clients by building functional, performant, and elegant web applications.
+                        You can find me on <a href="https://www.linkedin.com/in/coulet/" target="_blank">Linked in</a> and <a href="https://www.malt.fr/profile/louiscoulet" target="_blank">Malt</a>.
+                        Don't hesitate to drop me a message to discuss your project :)
+                    </p>
+                </div>
+            </div>
+        </section>
     </header>
 
     <main>
-        <section>
-            <div class="projectCard">
-                <h1>Pingarello</h1>
-                <a href="https://app.pingarello.com" target="_blank">
-                    <span class="onlypc">https://app.pingarello.com</span>
-                    <span class="onlyphone">visit</span>
-                </a>
-                <div class="projectDesc">
-                    App for automated website monitoring.
-                </div>
-            </div>
-
-            <div class="projectCard">
-                <h1>Blog articles in collection</h1>
-                <a href="https://apps.shopify.com/blog-articles-in-collection" target="_blank">
-                    <span class="onlypc">https://apps.shopify.com/blog-articles-in-collection</span>
-                    <span class="onlyphone">visit</span>
-                </a>
-                <div class="projectDesc">
-                    Shopify app for inserting blog snippets into collection pages.
-                </div>
-            </div>
-
-            <div class="projectCard">
-                <h1>EyeCatcher</h1>
-                <a href="https://apps.shopify.com/eyecatcher" target="_blank">
-                    <span class="onlypc">https://apps.shopify.com/eyecatcher</span>
-                    <span class="onlyphone">visit</span>
-                </a>
-                <div class="projectDesc">
-                    Shopify app for blurring the site when the visitor is idle.
-                </div>
-            </div>
-
-            <div class="projectCard">
-                <h1>GetVideos</h1>
-                <a href="https://getvideos.io/fr_fr/" target="_blank">
-                    <span class="onlypc">https://getvideos.io/fr_fr/</span>
-                    <span class="onlyphone">visit</span>
-                </a>
-                <div class="projectDesc">
-                    SAAS to collect videos from customers and displays them on online shops.
+        <section class="section">
+            <div class="container is-max-desktop">
+                <div class="columns is-multiline">
+                    <div class="column is-4">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <h1 class="title">Pingarello</h1>
+                                    <h2 class="subtitle">Web app</h2>
+                                </div>
+                                <div class="flip-card-back">
+                                    <h3 class="is-size-4">Pingarello</h3>
+                                    <a href="https://app.pingarello.com" target="_blank">https://app.pingarello.com</a>
+                                    <br>
+                                    <br>
+                                    <p>
+                                        A web app for monitoring websites.
+                                    </p>
+                                    <br>
+                                    <p>
+                                        Built with React.JS and Firebase.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-4">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <h1 class="title">B.A.I.C.</h1>
+                                    <h2 class="subtitle">Shopify app</h2>
+                                </div>
+                                <div class="flip-card-back">
+                                    <h3 class="is-size-4">Blog articles in collection</h3>
+                                    <a href="https://apps.shopify.com/blog-articles-in-collection" target="_blank">https://apps.shopify.com/blog-articles-in-collection</a>
+                                    <br>
+                                    <br>
+                                    <p>
+                                        A Shopify app for inserting blog snippets into collection pages.
+                                    </p>
+                                    <br>
+                                    <p>
+                                        Built with React.JS and Node.JS on Google Cloud Platform.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-4">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <h1 class="title">EyeCatcher</h1>
+                                    <h2 class="subtitle">Shopify app</h2>
+                                </div>
+                                <div class="flip-card-back">
+                                    <h3 class="is-size-4">EyeCatcher</h3>
+                                    <a href="https://apps.shopify.com/eyecatcher" target="_blank">https://apps.shopify.com/eyecatcher</a>
+                                    <br>
+                                    <br>
+                                    <p>
+                                        A Shopify app for blurring the site when the visitor is idle.
+                                    </p>
+                                    <br>
+                                    <p>
+                                        Built with Node.JS on Google Cloud Platform.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-4">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <h1 class="title">EcoNegoce</h1>
+                                    <h2 class="subtitle">Wordpress</h2>
+                                </div>
+                                <div class="flip-card-back">
+                                    <h3 class="is-size-4">EcoNegoce</h3>
+                                    <a href="https://econegoce.com/" target="_blank">https://econegoce.com/</a>
+                                    <br>
+                                    <br>
+                                    <p>
+                                        I installed this wordpress, its theme, customized it, and built custom breadcrumbs.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-4">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <h1 class="title">Reptiligne</h1>
+                                    <h2 class="subtitle">Prestashop</h2>
+                                </div>
+                                <div class="flip-card-back">
+                                    <h3 class="is-size-4">Reptiligne</h3>
+                                    <a href="https://www.reptiligne.fr/fr/" target="_blank">https://www.reptiligne.fr/fr/</a>
+                                    <br>
+                                    <br>
+                                    <p>
+                                        I provided various tweaks to this Prestashop store.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-4">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <h1 class="title">GetVideos</h1>
+                                    <h2 class="subtitle">SAAS</h2>
+                                </div>
+                                <div class="flip-card-back">
+                                    <h3 class="is-size-4">GetVideos</h3>
+                                    <a href="https://getvideos.io/fr_fr/" target="_blank">https://getvideos.io/fr_fr/</a>
+                                    <br>
+                                    <br>
+                                    <p>
+                                        This service collected customer videos and displayed them on product pages for online shops. It was not succesful enough and stopped.
+                                    </p>
+                                    <br>
+                                    <p>
+                                        Built with PHP and Python, with connectors to Prestashop, Shopify, WooCommerce.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
 
-    <div style="flex-grow: 1">&nbsp;</div>
-
-    <footer>
-        LC &copy; 2020
-    </footer>
-      
+    <script src="script.js"></script>
 </body>
 </html>
