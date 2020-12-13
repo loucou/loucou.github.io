@@ -1,0 +1,19 @@
+Pingarello
+https://app.pingarello.com
+App for automated website monitoring.
+Application de surveillance automatisée de sites web.
+
+Blog articles in collection
+https://apps.shopify.com/blog-articles-in-collection
+Shopify app for inserting blog snippets into collection pages.
+Application Shopify permettant l'insertion d'encarts dans les pages collections.
+
+EyeCatcher
+https://apps.shopify.com/eyecatcher
+Shopify app for blurring the site when the visitor is idle.
+Application Shopify permettant de griser le site en période d'inactivité.
+
+GetVideos
+https://getvideos.io/fr_fr/
+SAAS to collect videos from customers and displays them on online shops.
+SAAS recoltant des avis clients au format video pour les publier sur les pages produit.
