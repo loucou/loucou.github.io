@@ -57,3 +57,7 @@
 .flip-card-back a:hover {
 	text-decoration: underline;
 }
+
+section.projects {
+	padding-top: 0;
+}
