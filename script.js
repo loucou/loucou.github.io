@@ -10,8 +10,7 @@
 	function flipCard(card) {
 		var inner = card.querySelector(".flip-card-inner");
 		return function (event) {
-			var cur = inner.style.transform;
-			inner.style.transform = cur != "rotateY(180deg)" ? "rotateY(180deg)" : "";
+			inner.classList.toggle("is-flipped");
 		};
 	}
 
