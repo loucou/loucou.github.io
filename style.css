@@ -14,12 +14,7 @@
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.flip-card:hover .flip-card-inner {
-	transform: rotateY(180deg);
-}
-
 .flip-card-inner.is-flipped {
-	-webkit-transform: -webkit-rotateY(180deg);
 	transform: rotateY(180deg);
 }
 
@@ -43,12 +38,11 @@
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	/* font-size: 2em; */
 }
 
 .flip-card-back {
 	border-radius: 4px;
-	background-color: #2980b9;
+	background-color: #27a;
 	color: white;
 	transform: rotateY(180deg);
 	padding: 1em;
